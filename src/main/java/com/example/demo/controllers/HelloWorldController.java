@@ -24,6 +24,6 @@ public class HelloWorldController {
 
     @GetMapping("/hello2")
     public String hello2() {
-        return "Hello, World!";
+        return "Hello, World2!";
     }
 }
