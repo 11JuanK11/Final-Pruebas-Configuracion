@@ -11,8 +11,8 @@ public class HelloWorldController {
     public String index() {
         StringBuilder sb = new StringBuilder();
         sb.append("Las Url de los endpoints son: ");
-        sb.append("http://localhost:8080/hello-");
-        sb.append("http://localhost:8080/hello2");
+        sb.append("http://localhost:8080/hello -- ");
+        sb.append("http://localhost:8080/hello2 --  ");
         sb.append("http://localhost:8080/hello3");
 
         return sb.toString();
@@ -31,6 +31,6 @@ public class HelloWorldController {
 
     @GetMapping("/hello3")
     public String hello3() {
-        return "Hello, World2!";
+        return "Hello, World3!";
     }
 }
