@@ -11,8 +11,8 @@ public class HelloWorldController {
     public String index() {
         StringBuilder sb = new StringBuilder();
         sb.append("Las Url de los endpoints son: ");
-        sb.append("http://localhost:8080/hello");
-        //sb.append("\nhttp://localhost:8080/");
+        sb.append("http://localhost:8080/hello-");
+        sb.append("http://localhost:8080/hello2");
         return sb.toString();
     }
     
