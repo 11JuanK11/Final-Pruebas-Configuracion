@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-    //prueba23
+    //prueba233
     @GetMapping("/")
     public String index() {
         StringBuilder sb = new StringBuilder();
@@ -22,7 +22,7 @@ public class HelloWorldController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, World!";
+        return "Hello, World1!";
     }
 
     @GetMapping("/hello2")
