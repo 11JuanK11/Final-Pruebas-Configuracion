@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-    //prueba234
+    //prueba2345
     @GetMapping("/")
     public String index() {
         StringBuilder sb = new StringBuilder();
